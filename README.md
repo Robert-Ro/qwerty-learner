@@ -272,3 +272,14 @@ JS API 来自于[react-code-game](https://github.com/webzhd/react-code-game) ，
 ## 🌟 Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Kaiyiwing/qwerty-learner.svg)](https://starchart.cc/Kaiyiwing/qwerty-learner)
+
+## deploy
+
+### docker
+
+```
+// 镜像构建
+docker build . -t mapleimage123/learning-qwerty:1.0.0
+// 运行
+docker run -p  10081:80 -it -d --name learning-qwerty  mapleimage123/learning-qwerty:1.0.0
+```
